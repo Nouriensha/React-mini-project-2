@@ -68,7 +68,7 @@ function ProductList({ search, category }) {
 
   if (filteredProducts.length === 0) {
     return (
-      <Container className="mt-4">
+      <Container className="mt-5">
         <Alert variant="info">No products found for this filter.</Alert>
       </Container>
     );
